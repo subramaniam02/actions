@@ -12,7 +12,7 @@ jobs:
       - name: installation
         run: |
             pip install black pylint
-            echo "add-matcher::.github/workflows/black.json"
+            echo "::add-matcher::.github/workflows/black.json"
       - name: black
         run: black --check .
       
