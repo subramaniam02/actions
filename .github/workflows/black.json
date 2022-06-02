@@ -1,16 +1,13 @@
 {
   "problemMatcher": [
     {
-      "owner": "pylint",
+      "owner": "black",
       "severity": "error",
       "pattern": [
         {
-          "regexp": "^(.+):(\\d+):(\\d+):\\s(([A-Z]\\d{4}):\\s.+)$",
-          "file": 1,
-          "line": 2,
-          "column": 3,
-          "message": 4,
-          "code": 5
+          "regexp": "^(would reformat) (.+)$",
+          "file": 2,
+          "message": 1
         }
       ]
     }
